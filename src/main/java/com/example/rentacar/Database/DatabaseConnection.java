@@ -17,7 +17,7 @@ public class DatabaseConnection {
     private DatabaseConnection() {
         try {
             // Provide the connection URL
-            String connectionUrl = "jdbc:sqlserver://ctespbd.dei.isep.ipp.pt;databaseName=2023_DIAS_G4_ERMESINDE;user=2023_DIAS_G4_ERMESINDE;password=password123!";
+            String connectionUrl = "jdbc:sqlserver://servername;databaseName=[];user=[];password=[]";
             try {
                 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             } catch (ClassNotFoundException e) {
